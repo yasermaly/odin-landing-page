@@ -2,6 +2,8 @@
     box-sizing: border-box;
 }
 
+
+
 body {
     padding: 0;
     margin: 0;
@@ -9,6 +11,7 @@ body {
 }
 
 .hero {
+    width: 100%;
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
@@ -37,9 +40,7 @@ nav {
     justify-content: flex-end;
     margin-left: 10%;
     margin-right: 10%;
-    
-
-    
+    margin-bottom: 50px;
 }
 
 .menu {
@@ -51,8 +52,42 @@ nav {
 .logo {
     max-width: 25%;
     margin-right: auto;
+    margin-left: 0;
 }
 
 .header-cat {
-    max-width: 25%;
+    max-width: 50%;
+    padding: 10px;
+}
+
+.header {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-between;
+}
+
+.this-is {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    padding-right: 40px;
+
+}
+
+.right-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup {
+    background-color: #3882F6;
+    color: white;
+    text-decoration: none;
+    border: 0;
+    border-radius: 4px;
+    padding: 5px;
+    width: 20%;
 }
