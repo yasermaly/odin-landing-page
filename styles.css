@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: extra-bold;
+}
+
+h4 {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 20px;
+}
+
+.header-paragraph {
+    color: #E5E7EB;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    max-width: 25%;
+    
+}
+
+.header-cat {
+    max-width: 25%;
+}
