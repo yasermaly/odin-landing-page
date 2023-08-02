@@ -2,6 +2,12 @@
     box-sizing: border-box;
 }
 
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
 .hero {
     background-color: #1F2937;
     display: flex;
@@ -29,17 +35,22 @@ h4 {
 nav {
     display: flex;
     justify-content: flex-end;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+
     
 }
 
 .menu {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
     max-width: 25%;
-    
+    margin-right: auto;
 }
 
 .header-cat {
